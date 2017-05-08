@@ -67,9 +67,9 @@ function getInfo() {
 		if (signs[i].sign == horoscope) {
 			document.getElementById("sign").innerHTML = "<h2>" + signs[i].sign + "</h2>"
 			document.getElementById("image").src = signs[i].image
-			document.getElementById("trait").innerHTML = "<p>" + signs[i].trait + "</p>"
+			document.getElementById("trait").innerHTML = "<p>" + "Your positive traits are: " + "<strong>" + signs[i].trait + "!" + "</strong>" + "</p>"
 			return
 		}
 	}
-	document.getElementById("sign").innerHTML = "<h2>" + "Try Again!" + "</h2>"
+	document.getElementById("sign").innerHTML = "<h2>" + "Ooops! Try again!" + "</h2>"
 }

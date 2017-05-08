@@ -1,0 +1,26 @@
+.display-3 {
+	margin-top: 100px;
+}
+
+.lead {
+	margin: 20px 0;
+}
+
+#horoscope {
+	border-radius: 5px;
+	box-shadow: none;
+}
+
+.result {
+	margin-top: 50px;
+}
+
+#sign {
+	margin: 15px 0;
+}
+
+@media (max-width: 550px) {
+	#horoscope {
+		width: 60%;
+	}
+}
